@@ -1130,6 +1130,43 @@
     },
     {
       "images": {
+        "large": "/drivers/poolheatpump/assets/images/large.png",
+        "small": "/drivers/poolheatpump/assets/images/small.png"
+      },
+      "icon": "/drivers/poolheatpump/assets/icon.svg",
+      "platforms": [
+        "local"
+      ],
+      "connectivity": [
+        "cloud"
+      ],
+      "pair": [
+        {
+          "id": "list_devices",
+          "template": "list_devices",
+          "navigation": {
+            "next": "add_devices"
+          }
+        },
+        {
+          "id": "add_devices",
+          "template": "add_devices"
+        }
+      ],
+      "name": {
+        "en": "Pool heat pump"
+      },
+      "class": "heatpump",
+      "capabilities": [
+        "onoff",
+        "poolheatpump_mode",
+        "poolheatpump_target_temperature",
+        "measure_temperature"
+      ],
+      "id": "poolheatpump"
+    },
+    {
+      "images": {
         "large": "/drivers/switch/assets/images/large.png",
         "small": "/drivers/switch/assets/images/small.png"
       },

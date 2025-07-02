@@ -1,0 +1,16 @@
+{
+  "type": "enum",
+  "title": { "en": "Mode" },
+  "desc": { "en": "Pool heat pump operation mode" },
+  "values": [
+    { "id": "bheat", "title": { "en": "Boost Heat" } },
+    { "id": "eheat", "title": { "en": "Eco Heat" } },
+    { "id": "sheat", "title": { "en": "Silent Heat" } },
+    { "id": "bcool", "title": { "en": "Boost Cool" } },
+    { "id": "ecool", "title": { "en": "Eco Cool" } },
+    { "id": "scool", "title": { "en": "Silent Cool" } },
+    { "id": "auto",  "title": { "en": "Auto" } }
+  ],
+  "getable": true,
+  "setable": true
+}
