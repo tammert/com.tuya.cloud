@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1152" height="768" xmlns="http://www.w3.org/2000/svg">
+  <!-- Support feet -->
+  <path d="M288 614 L384 614 L384 653 L240 653 L240 614 L288 614"
+        fill="none" stroke="black" stroke-width="20"/>
+  <path d="M768 614 L864 614 L864 653 L720 653 L720 614 L768 614"
+        fill="none" stroke="black" stroke-width="20"/>
+
+  <!-- Main unit housing -->
+  <rect x="192" y="154" width="768" height="460" rx="38"
+        fill="none" stroke="black" stroke-width="40"/>
+
+  <!-- Cooling fins on right side -->
+  <path d="M730 173 L845 173" stroke="black" stroke-width="10"/>
+  <path d="M730 230 L845 230" stroke="black" stroke-width="10"/>
+  <path d="M730 288 L845 288" stroke="black" stroke-width="10"/>
+  <path d="M730 346 L845 346" stroke="black" stroke-width="10"/>
+  <path d="M730 403 L845 403" stroke="black" stroke-width="10"/>
+  <path d="M730 461 L845 461" stroke="black" stroke-width="10"/>
+  <path d="M730 518 L845 518" stroke="black" stroke-width="10"/>
+
+  <!-- Fan shroud (outer circle) -->
+  <circle cx="384" cy="384" r="154"
+          fill="none" stroke="black" stroke-width="20"/>
+
+  <!-- Fan circle -->
+  <circle cx="384" cy="384" r="115"
+          fill="none" stroke="black" stroke-width="20"/>
+
+  <!-- Fan blades -->
+  <path d="M384 269 L384 499 M269 384 L499 384 M307 307 L461 461 M307 461 L461 307"
+        stroke="black" stroke-width="10"/>
+</svg>

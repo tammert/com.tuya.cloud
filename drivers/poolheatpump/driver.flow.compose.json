@@ -1,0 +1,35 @@
+{
+  "actions": [
+    {
+      "id": "set_poolheatpump_mode",
+      "title": { "en": "Set pool heat pump mode" },
+      "args": [
+        {
+          "name": "mode",
+          "type": "dropdown",
+          "title": { "en": "Mode" },
+          "values": [
+            { "id": "bheat", "title": { "en": "Boost Heat" } },
+            { "id": "eheat", "title": { "en": "Eco Heat" } },
+            { "id": "sheat", "title": { "en": "Silent Heat" } },
+            { "id": "bcool", "title": { "en": "Boost Cool" } },
+            { "id": "ecool", "title": { "en": "Eco Cool" } },
+            { "id": "scool", "title": { "en": "Silent Cool" } },
+            { "id": "auto",  "title": { "en": "Auto" } }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "set_poolheatpump_target_temperature",
+      "title": { "en": "Set pool heat pump target temperature" },
+      "args": [
+        {
+          "name": "target_temperature",
+          "type": "number",
+          "title": { "en": "Target temperature" }
+        }
+      ]
+    }
+  ]
+}

@@ -9,6 +9,10 @@ class TuyaBaseDriver extends Homey.Driver {
             category: ["kt"]
         },
         {
+            type: "poolheatpump",
+            category: ["rs"]
+        },
+        {
             "type": "light",
             "category": ['dj', 'dd', 'fwd', 'tgq', 'xdd', 'dc', 'tgkg','sxd','tyndj','mbd','gyd']
         },
@@ -156,19 +160,19 @@ class TuyaBaseDriver extends Homey.Driver {
                     capabilities.push("light_saturation");
                     capabilities.push("light_mode");
                     break;
-                case "pir":    
+                case "pir":
                 case "pir_state":
                 case "presence":
                 case "presence_state":
                     capabilities.push("alarm_motion");
                     break;
-                case "smoke_sensor_status":    
+                case "smoke_sensor_status":
                     capabilities.push("alarm_smoke");
                     break;
-                case "doorcontact_state":    
+                case "doorcontact_state":
                     capabilities.push("alarm_contact");
-                    break;                    
-                case "temper_alarm":    
+                    break;
+                case "temper_alarm":
                     capabilities.push("alarm_tamper");
                     break;
                 case "battery_percentage":
@@ -194,7 +198,7 @@ class TuyaBaseDriver extends Homey.Driver {
                     if(deviceType ==='cover'){
                         capabilities.push("windowcoverings_set");
                     }
-                    break;                    
+                    break;
                 case "watersensor_state":
                     capabilities.push("alarm_water");
                     break;

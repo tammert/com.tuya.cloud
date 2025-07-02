@@ -1,0 +1,11 @@
+{
+  "name": { "en": "Pool heat pump" },
+  "class": "heatpump",
+  "capabilities": [
+    "onoff",
+    "poolheatpump_mode",
+    "poolheatpump_target_temperature",
+    "measure_temperature"
+  ],
+  "$extends": [ "defaults" ]
+}

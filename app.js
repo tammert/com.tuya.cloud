@@ -80,7 +80,7 @@ class TuyaCloudApp extends Homey.App {
         })
         this.homey.flow.getActionCard('setThermostatHeaterMode')
             .registerRunListener(async (args) => args.device.set_thermostat_mode(args.mode));
-      
+
     }
 
     async initTuyaSDK() {
@@ -231,6 +231,8 @@ class TuyaCloudApp extends Homey.App {
             case 'presenceSensor':
                 return this.homey.drivers.getDriver('tuyapresence');
                 //contact sensor
+            case 'poolheatpump':
+                return this.homey.drivers.getDriver('poolheatpump');
             default:
                 break;
         }

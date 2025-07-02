@@ -1,0 +1,13 @@
+{
+  "type": "number",
+  "title": { "en": "Target temperature" },
+  "uiComponent": "slider",
+  "getable": true,
+  "setable": true,
+  "units": { "en": "°C" },
+  "min": 8,
+  "max": 40,
+  "step": 1,
+  "decimals": 0,
+  "insights": true
+}
